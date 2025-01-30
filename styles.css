@@ -9,10 +9,13 @@ body {
 }
 
 header, footer {
-    background-color: #333;
-    color: white;
+    background-color:#0510E7FF; /*#333; 
+je fais cela quand je modifie, ici j'ai remplacé 333 par un outremer
+    color: white; en fait, ici c'est la couleur du texte de header*/
+    color: #C3A9E7FF;
     text-align: center;
     padding: 1em;
+  
 }
 
 main {
@@ -31,7 +34,7 @@ p {
 
 /* Style pour le bouton trackButton */
 #trackButton {
-    background-color: #4CAF50 !important;/* Vert */
+    background-color:#E72300FF ;/*rouge coeur */
     color: white; /* Couleur du texte */
     border: none; /* Pas de bordure */
     padding: 0.5em 1em; /* Espacement interne */
@@ -42,7 +45,7 @@ p {
 
 /* Effet au survol de la souris */
 #trackButton:hover {
-    background-color: #45a049; /* Vert foncé */
+    background-color: #45a049 !important; /* Vert foncé */
 }
 
 /* Responsive Design */
